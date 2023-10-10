@@ -76,7 +76,7 @@ $(document).ready(function () {
     ],
   });
   $(".our_facilities_item").slick({
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     speed: 600,
     draggable: true,
