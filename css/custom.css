@@ -248,7 +248,7 @@ section.slider_homepage {
 
 @media (min-width: 992px) {
   .slider, .slide {
-      height: clamp(400px, 50vw, 120vh);
+      height: clamp(250px, 50vw, 120vh);
       width: 100%;
   }
 }
@@ -278,13 +278,13 @@ section.slider_homepage {
   transition: all 1s ease 0s;
   object-fit: cover;
   object-position: center bottom;
-  height: clamp(400px, 50vw, 120vh);
+  height: clamp(250px, 50vw, 120vh);
   width: 100%;
   opacity: 1 !important;
 }
 
 section.slider_homepage {
-  height: clamp(400px, 50vw, 140vh);
+  height: clamp(250px, 50vw, 112vh);
   margin-top: -129px;
 }
 
@@ -782,8 +782,8 @@ section.slider_homepage {
 }
 
 .top_section-title h1 {
-  font-size: clamp(80px, 8vw, 130px);
-  line-height: clamp(95px, 8vw, 139px);
+  font-size: clamp(64px, 8vw, 130px);
+  line-height: clamp(74px, 8vw, 139px);
   color: rgb(0, 169, 157);
   font-family: EELGEFBeachBold;
 }
