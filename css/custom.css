@@ -701,7 +701,7 @@ section.slider_homepage {
 
 .button--nina > span {
   display: inline-block;
-  padding: 8px 0px;
+  padding: 4px 0;
   opacity: 0;
   color: rgb(255, 255, 255);
   transform: translate3d(0px, -10px, 0px);
@@ -718,7 +718,7 @@ section.slider_homepage {
   height: 20px;
   padding: 0px;
   transition: transform 0.3s cubic-bezier(0.75, 0, 0.125, 1) 0s, opacity 0.3s ease 0s;
-  line-height: 38px;
+  line-height: 31px;
 }
 
 .button--nina:hover {
@@ -978,8 +978,8 @@ section.team_section .slick-list {
 }
 
 .team_img img {
-  border-bottom-right-radius: 40px;
-  border-top-left-radius: 40px;
+  border-bottom-right-radius: 71px;
+  border-top-left-radius: 71px;
   margin-bottom: 37px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   max-height: 414px;
@@ -1364,7 +1364,7 @@ header.header.sticky-bar .logo_header img.img-fluid {
 }
 
 .about_img img {
-  height: 624px;
+  height: 100vh;
   object-fit: cover;
 }
 
