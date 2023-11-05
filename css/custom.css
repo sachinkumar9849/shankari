@@ -1791,3 +1791,6 @@ section.contact{
 .shair {
   margin-top: -47px;
 }
+h1.h_bold::first-letter {
+  font-weight: 600;
+}
