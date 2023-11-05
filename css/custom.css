@@ -1773,3 +1773,21 @@ section.banner {
   max-height: 383px;
   object-fit: cover;
 }
+.shair ul li {
+  display: flex;
+  align-items: center;
+}
+.shair ul li img.img-fluid {
+  width: 48px;
+  margin-left: 25px;
+}
+i.fa.fa-share-alt {
+  font-size: 43px;
+  color: #9c9999;
+}
+section.contact{
+  padding-bottom: 30px;
+}
+.shair {
+  margin-top: -47px;
+}
