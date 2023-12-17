@@ -104,12 +104,12 @@ $(document).ready(function () {
 
   // slider home end team_slider
   $(".team_slider").slick({
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     speed: 600,
     draggable: true,
-    infinite: true,
-    slidesToShow: 3,
+    infinite: false,
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
